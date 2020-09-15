@@ -46,7 +46,7 @@ const Import = (props) => {
                                          keepMounted
                                          open={Boolean(anchorEl)}
                                      >
-                                      <MenuItem onClick ={handleClose}><Button onClick ={props.deleteMake(idx)}>Delete</Button></MenuItem>
+                                      <MenuItem onClick ={handleClose}><Button >Delete</Button></MenuItem>
                                     </Menu>
                                 </TableCell>
                             </TableRow>
