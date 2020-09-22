@@ -4,7 +4,8 @@ import Home from './containers/Home'
 import About from './components/About'
 import Car from './containers/Car'
 import Dashboard from './containers/Dashboard'
-import Import from './components/Import'
+import Import from './containers/Import'
+
 
 const Router = () => {
     return (
